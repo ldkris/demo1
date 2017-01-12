@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         let okAction = UIAlertAction.init(title: "确定", style: UIAlertActionStyle.default) { (nil) in
             
             self.present(MainTabViewController.init(), animated: true, completion: nil)
-            print("fdsjfjdskl")
+            print("开始游戏开始游戏开始游戏开始游戏开始游戏开始游戏开始游戏开始游戏开始游戏开始游戏开始游戏")
         }
         let cancelAction = UIAlertAction.init(title: "取消", style: UIAlertActionStyle.cancel, handler: nil)
         alert.addAction(okAction)
