@@ -14,8 +14,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    //刘冬刘冬刘冬刘冬刘冬刘冬刘冬刘冬刘冬刘冬
+    
     @IBAction func startGames(_ sender: UIButton) {
-        let alert = UIAlertController.init(title: "开始游戏", message: "马上开始游戏", preferredStyle: UIAlertControllerStyle.alert)
+        let alert = UIAlertController.init(title: "开始游戏 ", message: "马上开始游戏", preferredStyle: UIAlertControllerStyle.alert)
         let okAction = UIAlertAction.init(title: "确定", style: UIAlertActionStyle.default) { (nil) in
             
             self.present(MainTabViewController.init(), animated: true, completion: nil)
